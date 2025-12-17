@@ -2,11 +2,21 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Image Viewer</title>
+  <title>今日の時間割</title>
+
+  <!-- 検索結果用 -->
+  <meta name="description" content="今日の時間割を画像で確認できるページです。定期的に更新されます。">
+  <meta name="robots" content="index, follow">
+
+  <!-- 表示デザイン -->
   <style>
     body {
       margin: 0;
-      background: black;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
     img {
       width: 100vw;
@@ -17,7 +27,8 @@
 </head>
 <body>
 
-<img src="image.jpg">
+  <!-- 表示する画像（image.jpg を差し替えるだけ） -->
+  <img src="image.jpg" alt="今日の時間割">
 
 </body>
 </html>
